@@ -2,8 +2,8 @@ import sdk from './sdk'
 import networks from './networks'
 
 export const defaultNetworkAddresses = {
-  public: 'https://horizon.stellar.org',
-  test: 'https://horizon-testnet.stellar.org',
+  public: 'https://api.monoeci.io',
+  test: 'https://api.monoeci.io',
   local: 'http://localhost:8000',
 }
 
