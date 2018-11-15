@@ -5,9 +5,9 @@ const networks = {
 }
 
 const hostnameToNetworkType = hostname => {
-  if (hostname === 'steexp.com' || hostname === 'publicnet.local')
+  if (hostname === 'explorer.monoeci.io' || hostname === 'publicnet.local')
     return networks.public
-  else if (hostname === 'testnet.steexp.com' || hostname === 'testnet.local')
+  else if (hostname === 'explorer.monoeci.io' || hostname === 'testnet.local')
     return networks.test
   else return networks.local
 }
