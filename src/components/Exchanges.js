@@ -13,7 +13,7 @@ import NewWindowIcon from './shared/NewWindowIcon'
 import {titleWithJSONButton} from './shared/TitleWithJSONButton'
 
 const METADATA_PATH =
-  'https://raw.githubusercontent.com/chatch/stellarexplorer/master/src/data/exchanges.json'
+  'https://raw.githubusercontent.com/monoeci-monaco/monoeci-explorer/master/src/data/exchanges.json'
 
 const Exchange = ({accounts, home, name, logo, decentralized = false}) => {
   const homeLink = `https://${home}`

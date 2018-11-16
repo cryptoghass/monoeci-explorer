@@ -13,7 +13,7 @@ import {titleWithJSONButton} from './shared/TitleWithJSONButton'
 import pools from '../data/inflation_pools.json'
 
 const METADATA_PATH =
-  'https://raw.githubusercontent.com/chatch/stellarexplorer/master/src/data/inflation_pools.json'
+  'https://raw.githubusercontent.com/monoeci-monaco/monoeci-explorer/master/src/data/inflation_pools.json'
 
 const Pool = ({account, name, website}) => {
   return (

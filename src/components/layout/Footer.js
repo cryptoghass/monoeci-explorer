@@ -15,7 +15,7 @@ class Footer extends React.PureComponent {
             }
           </Col>
           <Col mdOffset={7} md={2}>
-            <a href="https://github.com/chatch/stellarexplorer">
+            <a href="https://github.com/monoeci-monaco/monoeci-explorer">
               <img
                 src={`${process.env.PUBLIC_URL}/img/gh.svg`}
                 alt="github"
@@ -28,7 +28,7 @@ class Footer extends React.PureComponent {
         </Row>
         <Row>
           <Col mdOffset={10} md={2}>
-            <a href="https://github.com/chatch/stellarexplorer/issues">
+            <a href="https://github.com/monoeci-monaco/monoeci-explorer/issues">
               <img
                 src={`${process.env.PUBLIC_URL}/img/support.svg`}
                 alt="support"
@@ -41,14 +41,14 @@ class Footer extends React.PureComponent {
         </Row>
         <Row>
           <Col mdOffset={10} md={2}>
-            <a href="https://stellar.org">
+            <a href="https://monoeci.io">
               <img
-                src={`${process.env.PUBLIC_URL}/stellar.ico`}
+                src={`${process.env.PUBLIC_URL}/monoeci.ico`}
                 alt="stellar"
                 height={20}
                 width={20}
               />
-              Stellar.org
+              Monoeci.io
             </a>
           </Col>
         </Row>

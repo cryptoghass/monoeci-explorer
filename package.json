@@ -1,16 +1,16 @@
 {
-  "name": "stellarexplorer",
-  "description": "Ledger explorer for the Stellar network",
+  "name": "monoeci-explorer",
+  "description": "Ledger explorer for the Monoeci network",
   "version": "1.0.9",
   "license": "Apache-2.0",
   "author": "Chris Hatch",
-  "homepage": "https://steexp.com",
-  "repository": "chatch/stellarexplorer",
+  "homepage": "https://explorer.monoeci.io/",
+  "repository": "monoeci-monaco/monoeci-explorer",
   "bugs": {
-    "url": "https://github.com/chatch/stellarexplorer/issues"
+    "url": "https://github.com/monoeci-monaco/monoeci-explorer/issues"
   },
   "keywords": [
-    "stellar",
+    "monoeci",
     "react",
     "ledger",
     "block explorer",
