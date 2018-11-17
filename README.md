@@ -5,7 +5,9 @@
 A ledger explorer for [Monoeci V2](https://www.monoeci.io).
 
 Public: https://explorer.monoeci.io (TESTNET ONLY)
-Test: https://explorer-testnet.monoeci.io (Not lunched yet)
+
+Testnet: https://explorer-testnet.monoeci.io (Not lunched yet)
+
 Local: http://localhost:3000
 
 ## Resources
