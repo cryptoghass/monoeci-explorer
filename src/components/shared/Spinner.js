@@ -7,7 +7,7 @@ const Spinner = () => (
     <MDSpinner
       size="80"
       duration={3000}
-      color1="#07a2cc"
+      color1="#E5063E"
       color2="#057b9b"
       color3="#50e3c2"
     />
