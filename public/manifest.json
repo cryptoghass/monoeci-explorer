@@ -1,5 +1,5 @@
 {
-  "short_name": "steexp",
+  "short_name": "monoeci-explorer",
   "name": "Monoeci Explorer",
   "start_url": ".",
   "display": "standalone",

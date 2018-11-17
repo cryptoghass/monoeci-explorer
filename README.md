@@ -1,11 +1,11 @@
 # Monoeci V2 Explorer
 
-[![Build Status](https://travis-ci.org/chatch/monoeciexplorer.svg?branch=master)](https://travis-ci.org/chatch/monoeciexplorer)
+[![Build Status](https://travis-ci.org/monoeci-monaco/monoeci-explorer.svg?branch=master)](https://travis-ci.org/monoeci-monaco/monoeci-explorer)
 
 A ledger explorer for [Monoeci V2](https://www.monoeci.io).
 
 Public: https://explorer.monoeci.io (TESTNET ONLY)
-Test: https://explorer.monoeci.io
+Test: https://explorer-testnet.monoeci.io (Not lunched yet)
 Local: http://localhost:3000
 
 ## Resources
@@ -75,22 +75,22 @@ Local: http://localhost:3000
 
 ## Exploring Private / Local Development Networks<a name="private-networks"></a>
 
-steexp will connect to a local horizon instance at http://localhost:8000 by default. If your running a local private network for development this is quite handy for browsing your changes to the ledger.
+The explorer will connect to a local horizon instance at http://localhost:8000 by default. If your running a local private network for development this is quite handy for browsing your changes to the ledger.
 
 Alternatively you can run locally connecting to the testnet or public network horizon instances. To do this define these aliases to localhost:
 
 ```
-127.0.1.1  testnet.local     # for steexp use testnet horizon
-127.0.1.1  publicnet.local   # for steexp use mainnet horizon
+127.0.1.1  testnet.local     # to use testnet horizon
+127.0.1.1  publicnet.local   # to use mainnet horizon
 ```
 
 Navigate to http://testnet.local:3000 or http://publicnet.local:3000 to select the network your interesting in exploring.
 
 ## Development
 
-NOTE: use npm instead of yarn to install the dependencies - see [#15](https://github.com/chatch/monoeciexplorer/issues/15) for details
+NOTE: use npm instead of yarn to install the dependencies
 
-See the section [Exploring Private / Local Development Networks](#private-networks) for connecting to different backend networks. By default steexp will look for a local instance of horizon.
+See the section [Exploring Private / Local Development Networks](#private-networks) for connecting to different backend networks. By default it will look for a local instance of horizon.
 
 Start:
 
@@ -115,6 +115,6 @@ npm i && npm run build
 Use the language selector in the top right corner to change the language.
 
 Translation files are here:
-https://github.com/chatch/monoeciexplorer/tree/master/src/languages
+https://github.com/monoeci-monaco/monoeci-explorer/tree/master/src/languages
 
 Submit pull requests with new languages or languages fixes there.

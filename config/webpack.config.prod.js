@@ -338,7 +338,7 @@ module.exports = {
           },
         },
         { // Cache sponsored link banner fetches for 6 hours
-          urlPattern: /^https:\/\/raw.githubusercontent.com\/chatch\/stellarexplorer\/master\/banner.json/,
+          urlPattern: /^https:\/\/raw.githubusercontent.com\/monoeci-monaco\/monoeci-explorer\/master\/banner.json/,
           handler: 'cacheFirst',
           options: {
             cache: {

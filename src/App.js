@@ -53,7 +53,7 @@ import 'react-json-pretty/src/JSONPretty.1337.css'
 import './App.css'
 
 const HOME_PUBLIC = 'https://explorer.monoeci.io'
-const HOME_TESTNET = 'https://explorer.monoeci.io'
+const HOME_TESTNET = 'https://explorer-testnet.monoeci.io'
 
 const storage = storageInit()
 
