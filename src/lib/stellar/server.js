@@ -3,7 +3,7 @@ import networks from './networks'
 
 export const defaultNetworkAddresses = {
   public: 'https://api.monoeci.io',
-  test: 'https://api.monoeci.io',
+  test: 'https://api-testnet.monoeci.io',
   local: 'http://localhost:8000',
 }
 
