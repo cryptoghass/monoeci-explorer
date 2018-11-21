@@ -13,8 +13,8 @@ const issuer = (name, asset) =>
   anchors[name].assets[asset].substring(asset.length + 1)
 
 export default {
-  GDSNYE6WMDQQW7JNAIIFEIJ562GS76WGSKXG3K6DPXLRN3COA47JRAJH: issuer(
-    'smartlands.io',
-    'SLT'
-  ),
+  GDEEUQKH5PJ4XFZ2IBL23XD2N6JAEPAU24VL5BKMJEHOHJXRQMPZTWVJ: issuer(
+    'monoeci.io',
+    'XMCC'
+  )
 }
