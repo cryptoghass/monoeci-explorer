@@ -1,5 +1,3 @@
-import directory from '../data/directory'
-const {anchors} = directory
 
 /**
  * Register some known distributer accounts linking to thier issuer accounts.
@@ -8,9 +6,6 @@ const {anchors} = directory
  *  asset types an issuer lookup for just one asset is required to
  *  make the link. (eg. apay.io:ETH)
  */
-
-const issuer = (name, asset) =>
-  anchors[name].assets[asset].substring(asset.length + 1)
 
 export default {
 }
