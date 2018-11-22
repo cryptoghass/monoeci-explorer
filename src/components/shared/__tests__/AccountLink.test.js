@@ -22,13 +22,13 @@ it('renders short account for label when no label property', () => {
   expect(link.getElements()).toMatchSnapshot()
 })
 
-it('renders anchor name in italics if account a known anchor', () => {
-  const anchorName = knownAccounts[ACC_KNOWN].name
+// it('renders anchor name in italics if account a known anchor', () => {
+  // const anchorName = knownAccounts[ACC_KNOWN].name
 
-  const link = shallow(<AccountLink account={ACC_KNOWN} />)
-  const nameEl = link.find('Link > span')
+  // const link = shallow(<AccountLink account={ACC_KNOWN} />)
+  // const nameEl = link.find('Link > span')
 
-  expect(nameEl.text()).toEqual(anchorName)
-  expect(nameEl.props().style.fontStyle).toEqual('italic')
-  expect(link.getElements()).toMatchSnapshot()
-})
+  // expect(nameEl.text()).toEqual(anchorName)
+  // expect(nameEl.props().style.fontStyle).toEqual('italic')
+  // expect(link.getElements()).toMatchSnapshot()
+// })

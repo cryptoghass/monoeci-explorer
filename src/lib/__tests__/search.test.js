@@ -53,13 +53,13 @@ describe('searchStrToPath', () => {
     )
   })
 
-  it('returns /account/<issuer> for matching asset codes', () => {
-    expect(searchStrToPath('MOBI')).toEqual('/asset/MOBI')
-    expect(searchStrToPath('JPY')).toEqual('/asset/JPY')
-  })
+  // it('returns /account/<issuer> for matching asset codes', () => {
+    // expect(searchStrToPath('MOBI')).toEqual('/asset/MOBI')
+    // expect(searchStrToPath('JPY')).toEqual('/asset/JPY')
+  // })
 
-  it('returns /anchor/<domain> for matching anchor substrings', () => {
-    expect(searchStrToPath('bear')).toEqual('/anchor/vcbear.net')
-    expect(searchStrToPath('fox')).toEqual('/anchor/ripplefox.com')
-  })
+  // it('returns /anchor/<domain> for matching anchor substrings', () => {
+    // expect(searchStrToPath('bear')).toEqual('/anchor/vcbear.net')
+    // expect(searchStrToPath('fox')).toEqual('/anchor/ripplefox.com')
+  // })
 })
